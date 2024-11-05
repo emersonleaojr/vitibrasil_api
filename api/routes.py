@@ -1,10 +1,10 @@
 from flask import Flask,jsonify
 from flasgger import Swagger
-from scraping.producao import Producao
-from scraping.processamento import Processamento
-from scraping.comercializacao import Comercializacao
-from scraping.importacao import Importacao
-from scraping.exportacao import Exportacao
+from api.scraping.producao import Producao
+from api.scraping.processamento import Processamento
+from api.scraping.comercializacao import Comercializacao
+from api.scraping.importacao import Importacao
+from api.scraping.exportacao import Exportacao
 
 url_home = "http://vitibrasil.cnpuv.embrapa.br/index.php?"
 

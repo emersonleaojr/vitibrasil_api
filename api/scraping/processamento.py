@@ -2,7 +2,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-from scraping.scraping import Scraping
+from api.scraping.scraping import Scraping
 
 
 class Processamento(Scraping):
